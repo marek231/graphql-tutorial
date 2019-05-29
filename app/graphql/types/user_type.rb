@@ -4,6 +4,6 @@ module Types
     field :name, String, null: false
 
     # Just for tutorial purposes
-    field :email, String,null: false
+    field :email, String, null: false
   end
 end
