@@ -4,20 +4,20 @@
 ```sh
 >= 2.6.3
 ```
-### System dependencies
-
-### Configuration
-
+### Install dependencies
+```sh
+bundle install
+```
 ### Database creation
 ```sh
 bundle exec rails db:create
+bundle exec rails db:migrate
 ```
 ### Database initialization
-
+```sh
+bundle exec rails db:seed
+```
 ### How to run the test suite
 ```sh
 bundle exec rails test
 ```
-### Services (job queues, cache servers, search engines, etc.)
-
-### Deployment instructions
